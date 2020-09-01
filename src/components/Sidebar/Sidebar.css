@@ -1,0 +1,14 @@
+.sidebar {
+  background: #c1c7c9;
+  border-right: 1px solid #979797;
+  display: flex;
+  flex: 0 0 256px;
+  padding: 24px 32px;
+  width: 256px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
