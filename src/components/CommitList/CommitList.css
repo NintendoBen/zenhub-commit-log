@@ -1,3 +1,64 @@
 .commit-list {
+  background-color: #f2f2f2;
+  color: #000000;
   overflow: auto;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 13px;
+  position: relative;
+  text-align: left;
+  flex: 1 1;
+  min-width: 800px;
+}
+
+.commit-list table {
+  border-collapse: collapse;
+  position: relative;
+  table-layout: fixed;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.commit-list thead {
+  background-color: #cccccc;
+  box-shadow: 0 1px 3px 0 rgba(138, 138, 138, 0.5) inset;
+}
+
+.commit-list tr {
+  height: 24px;
+}
+
+.commit-list th {
+  font-weight: normal;
+  padding: 6px 8px 5px 8px;
+  border: 2px solid #bbbbbb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.commit-list td {
+  padding: 4px 8px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.commit-list span {
+  background-color: #df9ff7;
+  border-radius: 8px;
+  color: #734545;
+  font-size: 9px;
+  height: 17px;
+  line-height: 11px;
+  margin-right: 4px;
+  padding: 3px 7px;
+}
+
+.commit-list .commit-list-graph {
+  pointer-events: none;
+  position: absolute;
+  top: 26px;
+  left: 0px;
 }

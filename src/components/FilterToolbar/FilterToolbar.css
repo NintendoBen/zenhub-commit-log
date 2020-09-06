@@ -1,7 +1,31 @@
 .filter-toolbar {
-  background: #eff2f4;
-  border-bottom: 1px solid #979797;
+  background: rgba(239, 242, 244, 0.498279);
   display: flex;
-  height: 60px;
+  flex: 0 0 60px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 14px;
   padding: 16px;
+}
+
+.filter-toolbar input {
+  background: #ffffff;
+  border: 1px solid #e3e1e1;
+  box-sizing: border-box;
+  font-family: inherit;
+  padding: 0 10px;
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.filter-toolbar button {
+  background: linear-gradient(180deg, #faf2f2 0%, #ede5e5 100%);
+  border: 1px solid #d0cccc;
+  box-sizing: border-box;
+  color: #5a5151;
+  font-family: inherit;
+  padding: 0 27px;
+  flex: 0 0 85px;
 }
